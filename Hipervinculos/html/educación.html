@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ivan Puerto Parra">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta name="keywords" content="Hoja de vida, calidad, Curriculum Vitae, trabajo, experiencia, reconocimiento, statusquo">
+    <meta name="description" content="Curriculum Vitae">
+    <title>Curriculum Vitae IPP</title>
+  </head>
+  <body>
+    <header>
+      <a href="../../EstructuraBase/index.html">
+        <svg>
+          <img src="../../ManejoImagenes/SVG/LOGO1.svg" width="30%"></img>
+        </svg>
+      </a>
+      <h1><strong>Mi Curriculum Vitae</strong></h1>
+    </header>
+    <section description="Datos Personales" title="Datos Personales">
+      <h2><strong>Datos Personales</strong></h2>
+        <ul>
+          <li><h3>Nombre: Ivan</h3></li>
+          <li><h3>Apellidos: Puerto Parra</h3></li>
+          <li><h3>Edad: 33</h3></li>
+          <li><h3>Pais de Origen: Colombia</h3></li>
+        </ul>
+    </section>
+    <section description="Menu Principal" title="Menu Principal">
+      <navbar>
+        <a href="../../EstructuraBase/index.html" >Inicio</a> | <a href="educación.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
+      </navbar>
+    </section>
+    <hr>
+    <section description="Estudios" title="Estudios">
+      <h2>Educación</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Institulo</th>
+              <th>Lugar</th>
+              <th>=¿Culminó?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2009</td>
+              <td>Pontificia Universidad Javeriana</td>
+              <td>Bogotá, Colombia</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2014</td>
+              <td>Universidad Autonoma de Barcelona</td>
+              <td>Barcelona, España</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2017</td>
+              <td>NextU</td>
+              <td>Internet</td>
+              <td>En Curso</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <h2>Agregar Estudios</h2>
+        <form autocomplete="on" name="Formulario Contactenos" title="Agregar Estudios">
+          <fieldset>
+            <p>
+              <label for="date">Fecha</label>
+              <br>
+              <input type="month" name="date">
+            </p>
+            <p>
+              <label for="institution">Institución:</label>
+              <br>
+              <input type="text" name="institution" placeholder="Ej: Universidad" required>
+            </p>
+            <p>
+              <label for="place">Lugar:</label>
+              <br>
+              <textarea name="place" rows="3" cols="30"></textarea>
+            </p>
+            <p>
+              <label for="select">¿Culminó?:</label>
+              <input type="radio" name="option">Si
+              <input type="radio" name="option">No
+            </p>
+            <p>
+              <input type="submit" name="Send" value="Enviar">
+            </p>
+          </fieldset>
+        </form>
+        <p>@Derechos Reservados</p>
+    </section>
+    <hr>
+    <footer>
+      <h2>Contacto</h2>
+        <ul>
+          <li>Correo Electronico: ipparraceo@gmail.com</li>
+          <li>Teléfono: +1(786)8061447</li>
+          <li><a href="ww.linkedin.com/in/ipuerto">Linkedin</a></li>
+        </ul>
+    </footer>
+  </body>
+</html>
